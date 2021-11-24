@@ -2,6 +2,7 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
   --font-primary-color: #ffffff;
+  --title-page-font-color: #ff6f00;
 }
 @media (max-width: 1000px) {
   .title {
@@ -41,6 +42,7 @@ li {
 footer {
   padding: 35px;
 }
+
 .navbar-brand {
   font-family: var(--primary-font);
   font-weight: bold;
@@ -61,19 +63,20 @@ footer {
   font-family: var(--primary-font);
   font-weight: bold;
   font-size: 30px;
-  color: var(--font-primary-color);
+  color: var(--title-page-font-color);
 }
 .title {
   font-family: var(--primary-font);
   font-weight: bold;
   font-size: 72px;
-  color: var(--font-primary-color);
+  color: var(--title-page-font-color);
 }
 .short-description {
   font-family: var(--primary-font);
   font-weight: normal;
   font-size: 18px;
-  color: var(--font-primary-color);
+  color: var(--title-page-font-color);
+  z-index: 1;
 }
 .contact-me {
   color: black;
@@ -90,20 +93,20 @@ footer {
 .gallerySubhead {
   text-align: center;
   font-family: var(--primary-font);
-  color: white;
+  color: var(--font-primary-color);
   margin: 80px;
   font-size: 2rem;
 }
 .seriesTitle {
   font-family: var(--primary-font);
   font-size: 1.5rem;
-  color: white;
+  color: var(--font-primary-color);
   padding: 50px 0 50px 35px;
 }
 .illustrationDescription {
   font-family: var(--primary-font);
   font-size: 1rem;
-  color: white;
+  color: var(--font-primary-color);
   margin: 30px;
   text-align: center;
 }
@@ -114,6 +117,9 @@ footer {
 .galleryImage {
   border: solid white 0.5rem;
   box-shadow: 5px 5px 8px #636363;
+}
+.madameCoco {
+  margin-bottom: 80px;
 }
 /* info page*/
 .information {
@@ -137,4 +143,53 @@ footer {
   text-align: center;
   font-size: 1.5rem;
   color: var(--font-primary-color);
+}
+footer {
+  background-color: #212529;
+}
+.instagram {
+  text-decoration: none;
+  color: var(--font-primary-color);
+  display: block;
+}
+.instagram:hover {
+  color: var(--title-page-font-color);
+}
+.facebook {
+  text-decoration: none;
+  color: var(--font-primary-color);
+  display: block;
+}
+.facebook:hover {
+  color: var(--title-page-font-color);
+}
+
+/*contact me*/
+
+#contact-me {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.contactMe {
+  font-family: var(--primary-font);
+  font-weight: normal;
+  color: var(--font-primary-color);
+}
+.contactMessage {
+  font-family: var(--primary-font);
+  font-weight: normal;
+  color: var(--font-primary-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: var(--font-primary-color);
+  display: block;
+  font-size: 2rem;
+}
+.email-link:hover {
+  color: var(--title-page-font-color);
 }
