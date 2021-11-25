@@ -5,7 +5,7 @@
   --title-page-font-color: #ff6f00;
 }
 @media (max-width: 1000px) {
-  .title {
+  .portfolioTitle {
     font-size: 25px;
   }
   .harukoSeries {
@@ -50,14 +50,12 @@ footer {
 
 .top-container {
   padding: 20%;
-
   background-image: url(/images/Lilies.JPG);
   background-position: center;
   opacity: 0.3;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center center;
 }
 .artist-name {
   font-family: var(--primary-font);
@@ -65,7 +63,7 @@ footer {
   font-size: 30px;
   color: var(--title-page-font-color);
 }
-.title {
+.portfolioTitle {
   font-family: var(--primary-font);
   font-weight: bold;
   font-size: 72px;
@@ -162,6 +160,10 @@ footer {
 }
 .facebook:hover {
   color: var(--title-page-font-color);
+}
+.codedBy {
+  font-size: 0.8rem;
+  margin-top: 50px;
 }
 
 /*contact me*/
