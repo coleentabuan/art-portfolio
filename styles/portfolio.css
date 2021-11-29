@@ -33,20 +33,12 @@ footer {
   background-image: url(/images/Lilies.JPG);
 
   background-position: center center;
-  opacity: 0.5;
+  opacity: 0.6;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.top-container::before {
-  content: "";
-  display: block;
-  position: absolute;
 
-  background-size: cover;
-  background: black;
-  opacity: 0.9;
-}
 .artist-name {
   font-family: var(--primary-font);
   font-weight: bold;
@@ -222,4 +214,8 @@ footer {
   .short-description {
     font-size: 18px;
   }
+  /* .top-container {
+    background-image: url(/images/Lilies.JPG);
+    background-size: 100% 100%;
+  }*/
 }
