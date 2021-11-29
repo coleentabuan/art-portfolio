@@ -4,26 +4,6 @@
   --font-primary-color: #ffffff;
   --title-page-font-color: #ff6f00;
 }
-@media (max-width: 1000px) {
-  .harukoSeries {
-    flex-direction: column;
-    text-align: center;
-  }
-  .kaijuSeries {
-    flex-direction: column;
-    text-align: center;
-  }
-  .madameCoco {
-    flex-direction: column;
-    text-align: center;
-  }
-  .galleryImage {
-    max-width: 80%;
-  }
-  .portfolioTitle {
-    font-size: 35px;
-  }
-}
 
 body {
   background-color: black;
@@ -193,4 +173,37 @@ footer {
 }
 .email-link:hover {
   color: var(--title-page-font-color);
+}
+@media (max-width: 1000px) {
+  .harukoSeries {
+    flex-direction: column;
+    text-align: center;
+  }
+  .kaijuSeries {
+    flex-direction: column;
+    text-align: center;
+  }
+  .madameCoco {
+    flex-direction: column;
+    text-align: center;
+  }
+  .galleryImage {
+    max-width: 80%;
+  }
+  .portfolioTitle {
+    font-size: 35px;
+  }
+  .email-link {
+    font-size: 1.5rem;
+  }
+  .socialMedia {
+    font-size: 1rem;
+  }
+  .selfie {
+    padding: 10px;
+    border: none;
+  }
+  .artist-name {
+    font-size: 20px;
+  }
 }
