@@ -2,7 +2,7 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
   --font-primary-color: #ffffff;
-  --title-page-font-color: #ff6f00;
+  --title-page-font-color: #9e0451;
 }
 
 body {
@@ -33,10 +33,19 @@ footer {
   background-image: url(/images/Lilies.JPG);
 
   background-position: center center;
-  opacity: 0.3;
+  opacity: 0.5;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+.top-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+
+  background-size: cover;
+  background: black;
+  opacity: 0.9;
 }
 .artist-name {
   font-family: var(--primary-font);
@@ -53,7 +62,7 @@ footer {
 .short-description {
   font-family: var(--primary-font);
   font-weight: normal;
-  font-size: 18px;
+  font-size: 25px;
   color: var(--title-page-font-color);
 }
 .contact-me {
@@ -67,6 +76,7 @@ footer {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  opacity: 1;
 }
 /* Gallery Images*/
 .gallerySubhead {
