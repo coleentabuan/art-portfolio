@@ -2,7 +2,7 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
   --font-primary-color: #ffffff;
-  --title-page-font-color: #9e0451;
+  --title-page-font-color: #fae6cb;
 }
 
 body {
@@ -33,7 +33,7 @@ footer {
   background-image: url(/images/Lilies.JPG);
 
   background-position: center center;
-  opacity: 0.6;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -64,11 +64,13 @@ footer {
   border-radius: 50px;
 }
 .homepage-content {
-  display: flex;
+  display: block;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  opacity: 1;
+  border-radius: 4px;
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 50px, 80px;
 }
 /* Gallery Images*/
 .gallerySubhead {
@@ -214,8 +216,8 @@ footer {
   .short-description {
     font-size: 18px;
   }
-  /* .top-container {
-    background-image: url(/images/Lilies.JPG);
-    background-size: 100% 100%;
-  }*/
+  .top-container {
+    background-image: url(/images/lily-phone.png);
+    background-size: cover;
+  }
 }
