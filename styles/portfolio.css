@@ -100,7 +100,14 @@ footer {
 .galleryImage {
   border: solid white 0.5rem;
   box-shadow: 5px 5px 8px #636363;
+  transition: transform 0.5s;
 }
+.galleryImage:hover {
+  -ms-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+
 .madameCoco {
   margin-bottom: 80px;
 }
