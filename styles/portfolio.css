@@ -231,4 +231,8 @@ footer {
     background-image: url(/images/lily-phone.png);
     background-size: cover;
   }
+  .homepage-content {
+    margin-top: 57px;
+    margin-bottom: 57px;
+  }
 }
